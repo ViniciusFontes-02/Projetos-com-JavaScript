@@ -1,0 +1,439 @@
+/* Global */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dentro-cabecalho {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  color: #0084ff;
+
+  & span {
+    color: white;
+  }
+}
+
+/* nav */
+
+.navbar {
+  background-color: #2c2c2c;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 10px 0px 10px #2c2c2c;
+  z-index: 99;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  & .logo {
+    color: #0084ff;
+
+    & span {
+      color: white;
+    }
+  }
+
+  & nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+    & li {
+      color: white;
+      margin-right: 1.5rem;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover {
+        transform: translateY(-5px);
+        font-weight: 700;
+      }
+    }
+  }
+
+  & .container-icones-nav {
+    display: flex;
+    align-items: center;
+
+    & img {
+      width: 30px;
+      cursor: pointer;
+    }
+
+    /* 1rem =16px */
+    & img:first-child {
+      margin-right: 1rem;
+    }
+  }
+}
+
+& .botao-menu {
+  display: none;
+}
+
+/* CABEÇALHO */
+
+header,
+main {
+  background-image: radial-gradient(white, #c7c7c7);
+
+  & .botao-lado-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    & .botao-esquerdo-cabecalho {
+      height: 1100%;
+      flex-basis: 50%;
+
+      & h2 {
+        font-size: 3.2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      & p {
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      & button {
+        background-color: #0084ff;
+        border: none;
+        cursor: pointer;
+        padding: 0.8rem 3.8rem;
+        border-radius: 9999px;
+        color: white;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: all 0.2s;
+
+        &:hover {
+          background-color: #004c94;
+        }
+      }
+    }
+
+    & .botao-direito-cabecalho {
+      display: flex;
+      flex-basis: 50%;
+      align-items: center;
+      justify-content: center;
+
+      & img {
+        width: 115%;
+        /* margin: 0 auto; */
+      }
+    }
+  }
+}
+
+/* Media queries CABEÇALHO*/
+
+@media (max-width: 800px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .botao-menu {
+    display: block;
+  }
+
+  .botao-lado-cabecalho {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  nav {
+    position: absolute;
+    background-color: #2c2c2c;
+    width: 100%;
+    top: 46px;
+    display: none;
+  }
+
+  .show-menu nav {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 0.8rem;
+  }
+}
+
+/* Main */
+
+main {
+  background-color: #ebebeb;
+}
+
+.cor-fundo-cinza {
+  background-color: #2c2c2c;
+}
+
+.dentro-pagina {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.colunas {
+  display: grid;
+  justify-content: space-evenly;
+  padding: 4rem 1rem;
+}
+
+.colunas-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.colunas-3 img {
+  max-width: 100%;
+}
+
+.colunas-4 img {
+  max-width: 100%;
+}
+
+.colunas-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.colunas > * {
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.titulo-secao {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.8rem;
+}
+
+.subtitulo {
+  width: 100px;
+  height: 5px;
+  background-color: #0084ff;
+  border-radius: 9999px;
+  margin: 8px auto 0 auto;
+}
+
+.produto {
+  color: #2c2c2c;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nome-produto {
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+
+.avaliacao {
+  color: #0084ff;
+  font-size: 1.3rem;
+}
+
+.preco-produto span {
+  font-weight: 600;
+}
+
+.exclusivo-container {
+  color: white;
+  flex-direction: row-reverse;
+  padding: 5rem 1rem;
+}
+
+.exclusivo-container img {
+  max-width: 500px;
+}
+
+/* media -queries MAIN*/
+
+@media (max-width: 800px) {
+  .titulo-secao {
+    font-size: 1rem;
+  }
+
+  .colunas-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .colunas-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nome-produto,
+  .preco-produto,
+  .avaliacao {
+    max-height: 1rem;
+    overflow: hidden;
+    font-size: 0.8rem;
+  }
+
+  .exclusivo-container {
+    flex-direction: column-reverse;
+  }
+
+  .exclusivo-container img {
+    margin-bottom: 4rem;
+  }
+}
+
+/* COMENTARIOS */
+
+.comentarios {
+  display: flex;
+  padding: 4rem 1rem;
+  justify-content: space-evenly;
+}
+
+.comentario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 30%;
+  text-align: center;
+  box-shadow: 0 0 15px #afafaf;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.comentario p {
+  margin: 5px 0;
+}
+
+.comentario p:first-child {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #0084ff;
+  margin-top: 3rem;
+  line-height: 2rem;
+}
+
+.comentario p:last-child {
+  font-weight: 700;
+}
+
+/* media-queries COMENTARIOS*/
+
+@media (max-width: 800px) {
+  .comentarios {
+    flex-direction: column;
+  }
+
+  .comentario {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* footer */
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  color: #8f8f8f;
+  padding: 4rem 1rem;
+  gap: 2rem;
+}
+
+.opcoes-download > * {
+  margin: 1rem 0;
+}
+
+.opcoes-download > p:first-child {
+  font-weight: 700;
+  color: white;
+}
+
+.opcoes-download > div {
+  display: flex;
+}
+
+.opcoes-download > div img {
+  width: 180px;
+}
+
+.logo-footer {
+  text-align: center;
+}
+
+.links-footer h3 {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.links-footer ul {
+  list-style: none;
+}
+
+.links-footer ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.copyright {
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* media queries FOOTER*/
+
+@media (max-width: 800px) {
+  .footer-content {
+    display: inline;
+    font-size: 0.8rem;
+  }
+
+  .footer-content > div {
+    padding: 1rem;
+  }
+
+  .opcoes-download > div {
+    display: inline;
+  }
+
+  .opcoes-download > div img {
+    width: 120px;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
