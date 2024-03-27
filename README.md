@@ -1,4 +1,4 @@
-## Projeto 2 - Calculadora de IMC
+## [Projeto 2 - Calculadora de IMC](https://calculadoraimc-javascript.netlify.app/)
 => Calculadora de Índice de Massa Corporal (IMC) que permite aos usuários inserir seu peso e altura para calcular seu IMC, fornecendo uma classificação indicando se estão com peso ideal, abaixo do peso, com sobrepeso ou com algum tipo de obesidade. Desenvolvida utilizando HTML, CSS e JavaScript, a calculadora oferece uma forma simples e interativa de monitorar a saúde e está aberta a contribuições para possíveis melhorias.
 
 ## Projeto 3 - Cronômetro
