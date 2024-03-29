@@ -14,4 +14,4 @@
 => Este projeto em JavaScript consiste em um gerador de senhas que permite ao usuário personalizar a quantidade de caracteres desejada e incluir letras, números e caracteres especiais. Além disso, oferece a funcionalidade de copiar a senha gerada com apenas um clique, facilitando sua utilização em diversas plataformas.
     
 ## Projeto 7 - Hamburgueria 
-=> Projeto de uma 
+=> Este projeto de hamburgueria utiliza JavaScript para exibir uma variedade de lanches disponíveis e oferece funcionalidades como visualização de todos os itens, aplicação de descontos, cálculo do total do pedido e filtragem de lanches veganos. Utilizando métodos como forEach, map, reduce, e filter.
