@@ -13,3 +13,5 @@
 ## Projeto 6 - Formulario gerador de Senhas 
 => Este projeto em JavaScript consiste em um gerador de senhas que permite ao usuário personalizar a quantidade de caracteres desejada e incluir letras, números e caracteres especiais. Além disso, oferece a funcionalidade de copiar a senha gerada com apenas um clique, facilitando sua utilização em diversas plataformas.
     
+## Projeto 7 - Hamburgueria 
+=> Projeto de uma 
