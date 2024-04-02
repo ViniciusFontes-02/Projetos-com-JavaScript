@@ -24,3 +24,6 @@
 
 ## Projeto 11 - To Do List
 => Este projeto consiste em uma lista de tarefas com funcionalidades básicas de adição, edição e exclusão de tarefas, bem como pesquisa e filtragem por status. Os dados são armazenados localmente usando o Local Storage, garantindo que a lista de tarefas permaneça acessível mesmo após a atualização da página.
+
+## Projeto 12 - Gerador de Box-Shadow
+=> um projeto desenvolvido em HTML, CSS e JavaScript Puro, projetado para simplificar a personalização de sombras em elementos de programas. Com controles intuitivos, os usuários podem ajustar o deslocamento, o blur, o espalhamento, a cor, a opacidade e a natureza da sombra, seja interna ou externa. Ao finalizar as configurações desejadas, o código gerado é exibido para fácil implementação, permitindo aos usuários copiá-lo com um clique e aplicá-lo em seus próprios projetos, proporcionando um método eficiente para alcançar sombras personalizadas e esteticamente agradáveis.
