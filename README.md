@@ -15,3 +15,6 @@
     
 ## Projeto 7 - Hamburgueria 
 => Este projeto de hamburgueria utiliza JavaScript para exibir uma variedade de lanches disponíveis e oferece funcionalidades como visualização de todos os itens, aplicação de descontos, cálculo do total do pedido e filtragem de lanches veganos. Utilizando métodos como forEach, map, reduce, e filter.
+
+## Projeto 9 - Bloco de notas
+=> Esta aplicação permite aos usuários criar, fixar, copiar, editar e pesquisar notas de forma eficiente, oferecendo também a capacidade de exportar notas para CSV. Todas as informações são automaticamente salvas no Local Storage do navegador, garantindo a persistência dos dados mesmo após recarregar a página. Este projeto demonstra como tecnologias simples podem resultar em uma ferramenta poderosa para organização e produtividade.
