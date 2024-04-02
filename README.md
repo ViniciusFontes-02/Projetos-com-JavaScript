@@ -18,3 +18,9 @@
 
 ## Projeto 9 - Bloco de notas
 => Esta aplicação permite aos usuários criar, fixar, copiar, editar e pesquisar notas de forma eficiente, oferecendo também a capacidade de exportar notas para CSV. Todas as informações são automaticamente salvas no Local Storage do navegador, garantindo a persistência dos dados mesmo após recarregar a página. Este projeto demonstra como tecnologias simples podem resultar em uma ferramenta poderosa para organização e produtividade.
+
+## Projeto 10 - Gerador de QR Code
+=> Este programa permite aos usuários gerar QR Codes facilmente para palavras, frases e URLs. Com um alerta integrado para garantir que o conteúdo seja inserido antes da geração do código, o projeto oferece uma solução simples, porém funcional, que certamente será útil para uma ampla gama de usuários.
+
+## Projeto 11 - To Do List
+=> Este projeto consiste em uma lista de tarefas com funcionalidades básicas de adição, edição e exclusão de tarefas, bem como pesquisa e filtragem por status. Os dados são armazenados localmente usando o Local Storage, garantindo que a lista de tarefas permaneça acessível mesmo após a atualização da página.
